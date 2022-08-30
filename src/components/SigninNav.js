@@ -63,7 +63,7 @@ const SigninNav = () => {
                     Please, check your browser’s address bar to be sure you’re on
                     https://app.easy.com
                     </div>
-                    <div className="alert alert-danger text-center">{errorMessage}</div>
+                    <div className="alert alert-info text-center mt-2">{errorMessage}</div>
                    
                     <div className='border rounded mt-lg-4 p-5 shadow-sm'>
                         <h4>Sign in To Kuda</h4>
