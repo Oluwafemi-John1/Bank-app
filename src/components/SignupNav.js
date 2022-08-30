@@ -68,7 +68,7 @@ const SignupNav = () => {
                     <div className="border p-3 shadow-sm rounded mt-lg-3" id='browserAddress'>
                     Please, check your browser’s address bar to be sure you’re on https://app.easy.com
                     </div>
-                    <div className="alert alert-danger text-center mt-2">{errorMessage}</div>
+                    <div className="alert alert-info text-center mt-2">{errorMessage}</div>
                    
                     <div className='border rounded mt-lg-4 p-5 shadow-sm mb-3'>
                         <h4>Get a Kuda acccount now</h4>
