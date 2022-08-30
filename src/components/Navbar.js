@@ -68,7 +68,7 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/signin">Sign In</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-light rounded px-4" href="#" id='getKuda'>Get Kuda</a>
+                                <Link className="nav-link text-light rounded px-4" to="/signup" id='getKuda'>Get Kuda</Link>
                             </li>
                             <li className="nav-item dropdown" id='imagescammer'>
                                 <a className="nav-link " href="#"><img src={countrylogo} alt="" /></a>

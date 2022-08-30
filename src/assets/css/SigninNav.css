@@ -10,6 +10,23 @@
     .openaccount:hover {
         transform: translateY(-3px);
     }
+
+    #signupimg {
+        animation: move 2s linear backwards;
+        position: relative;
+    }
+
+    @keyframes move {
+        0% {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
 }
 
 #browserAddress {

@@ -1,5 +1,5 @@
 #sectionKuda {
-    height: 120vh;
+    height: 90vh;
     transform: translateY(100px);
 }
 #getKudagetKuda {
@@ -83,5 +83,35 @@ p#freedom {
     #imagebank img {
         margin-left: 70px;
         width: 200px;
+    }
+}
+
+
+/* <=========== Card Section ===========> */
+section#card {
+    height: 50vh;   
+}
+
+@media all and (min-width: 992px) {
+    #cards {
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+
+    #imagebank {
+        animation: move 1.5s linear backwards;
+        position: relative;
+    }
+
+    @keyframes move {
+        0% {
+            opacity: 0;
+            transform: translateX(100%);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
     }
 }
