@@ -14,7 +14,7 @@ const Dashboard = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className='navbar-nav' id='navbar-nav2'>
                             <li className="nav-item">
-                                <Link className="nav-link rounded px-4 openaccount" to="/signup" >Open an Account</Link>
+                                <Link className="nav-link rounded px-4 openaccount" to="/" >Back to Home</Link>
                             </li>
                         </ul>
                     </div>
